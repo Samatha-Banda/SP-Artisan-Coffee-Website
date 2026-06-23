@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SP Artisan Coffee</title>
+    <meta name="description" content="Experience premium artisan coffee at Brew Haven. Crafted with passion, offering the finest blends and a luxurious atmosphere.">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. Navigation Bar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">SP Artisan Coffee</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Locations</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- 2. Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="container hero-container">
+            <div class="hero-content reveal">
+                <h1 class="hero-title">Artisan Coffee <br>Crafted with <span>Passion</span></h1>
+                <p class="hero-subtitle">Experience the rich, bold flavors of our premium coffee blends, roasted to perfection to awaken your senses.</p>
+                <div class="hero-btns">
+                    <a href="#products" class="btn btn-primary">Explore Our Blends</a>
+                    <a href="#locations" class="btn btn-outline">Visit Our Cafe</a>
+                </div>
+            </div>
+            <div class="hero-image-container reveal" style="transition-delay: 0.2s;">
+                <img src="assets/images/hero_cup.png" alt="Floating Coffee Cup" class="hero-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Signature Coffee Blends -->
+    <section id="products" class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Signature Blends</h2>
+                <p class="section-subtitle">Discover our most loved coffee varieties, sourced from the world's finest coffee regions.</p>
+            </div>
+            <div class="blends-grid">
+                <!-- Card 1 -->
+                <div class="blend-card reveal">
+                    <div class="blend-img-container">
+                        <img src="assets/images/blend_espresso.png" alt="Midnight Espresso" class="blend-img">
+                    </div>
+                    <div class="blend-content">
+                        <h3 class="blend-title">Midnight Espresso</h3>
+                        <p class="blend-desc">Intense, full-bodied espresso with notes of dark chocolate and toasted almond.</p>
+                        <div class="blend-footer">
+                            <span class="blend-price">₹250</span>
+                            <div class="blend-rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="blend-card reveal" style="transition-delay: 0.1s;">
+                    <div class="blend-img-container">
+                        <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=600&q=80" alt="Velvet Cappuccino" class="blend-img">
+                    </div>
+                    <div class="blend-content">
+                        <h3 class="blend-title">Velvet Cappuccino</h3>
+                        <p class="blend-desc">A perfect balance of rich espresso and velvety steamed milk with flawless latte art.</p>
+                        <div class="blend-footer">
+                            <span class="blend-price">₹200</span>
+                            <div class="blend-rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="blend-card reveal" style="transition-delay: 0.2s;">
+                    <div class="blend-img-container">
+                        <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600&q=80" alt="Golden Iced Latte" class="blend-img">
+                    </div>
+                    <div class="blend-content">
+                        <h3 class="blend-title">Golden Iced Latte</h3>
+                        <p class="blend-desc">Smooth, cold-brewed coffee layered with fresh cream and a hint of vanilla bean.</p>
+                        <div class="blend-footer">
+                            <span class="blend-price">₹300</span>
+                            <div class="blend-rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. About Us -->
+    <section id="about" class="section" style="background-color: var(--color-surface);">
+        <div class="container about-container">
+            <div class="about-img-container reveal">
+                <img src="assets/images/shop image.png" alt="SP Artisan Coffee Interior" class="about-img">
+            </div>
+            <div class="about-content reveal" style="transition-delay: 0.2s;">
+                <h2>A Legacy of Coffee Excellence</h2>
+                <p>Since 2030, SP Artisan Coffee has been dedicated to the art of coffee making. We believe that every cup tells a story, from the ethical sourcing of premium beans to the meticulous roasting process and the final pour.</p>
+                <p>Our expert baristas pour their heart and soul into every beverage, ensuring that your coffee experience is nothing short of extraordinary.</p>
+                
+                <div class="stats-grid" style="margin-top: 2rem;">
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="3" data-suffix="+">0</div>
+                        <div class="stat-text">Years Exp.</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="1" data-suffix="k+">0</div>
+                        <div class="stat-text">Happy Guests</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="15" data-suffix="">0</div>
+                        <div class="stat-text">Varieties</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Featured Menu -->
+    <section class="section menu">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Classic Menu</h2>
+                <p class="section-subtitle">Our timeless favorites prepared with precision.</p>
+            </div>
+            <div class="menu-grid reveal">
+                <div class="menu-item">
+                    <div class="menu-item-info">
+                        <h4>Espresso</h4>
+                        <p>Rich, intense, pure coffee</p>
+                    </div>
+                    <div class="menu-item-price">₹120</div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-info">
+                        <h4>Cappuccino</h4>
+                        <p>Espresso, steamed milk, deep foam</p>
+                    </div>
+                    <div class="menu-item-price">₹150</div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-info">
+                        <h4>Latte</h4>
+                        <p>Espresso, plenty of steamed milk</p>
+                    </div>
+                    <div class="menu-item-price">₹200</div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-info">
+                        <h4>Mocha</h4>
+                        <p>Espresso, chocolate, steamed milk</p>
+                    </div>
+                    <div class="menu-item-price">₹180</div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-info">
+                        <h4>Americano</h4>
+                        <p>Espresso cut with hot water</p>
+                    </div>
+                    <div class="menu-item-price">₹100</div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-info">
+                        <h4>Cold Brew</h4>
+                        <p>Slow steeped for 24 hours</p>
+                    </div>
+                    <div class="menu-item-price">₹250</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Why Choose Us -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Why SP Artisan Coffee?</h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card reveal">
+                    <i class="fas fa-seedling feature-icon"></i>
+                    <h3 class="feature-title">Premium Beans</h3>
+                    <p class="feature-desc">100% Quality beans ethically sourced from high-altitude farms.</p>
+                </div>
+                <div class="feature-card reveal" style="transition-delay: 0.1s;">
+                    <i class="fas fa-coffee feature-icon"></i>
+                    <h3 class="feature-title">Expert Baristas</h3>
+                    <p class="feature-desc">Highly trained artisans dedicated to perfecting every single cup.</p>
+                </div>
+                <div class="feature-card reveal" style="transition-delay: 0.2s;">
+                    <i class="fas fa-bolt feature-icon"></i>
+                    <h3 class="feature-title">Fast Service</h3>
+                    <p class="feature-desc">Quick, efficient, and friendly service without compromising quality.</p>
+                </div>
+                <div class="feature-card reveal" style="transition-delay: 0.3s;">
+                    <i class="fas fa-couch feature-icon"></i>
+                    <h3 class="feature-title">Cozy Environment</h3>
+                    <p class="feature-desc">A luxurious, welcoming atmosphere perfect for work or relaxation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 8. Gallery Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Our Gallery</h2>
+                <p class="section-subtitle">Take a visual journey through our craft.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=600&q=80" alt="Espresso Pour">
+                    <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+                <div class="gallery-item reveal" style="transition-delay: 0.1s;">
+                    <img src="https://images.unsplash.com/photo-1559525839-b184a4d698c7?w=600&q=80" alt="Coffee beans roasting">
+                    <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+                <div class="gallery-item reveal" style="transition-delay: 0.2s;">
+                    <img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?w=600&q=80" alt="Latte art">
+                    <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=600&q=80" alt="Dark coffee shop interior">
+                    <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+                <div class="gallery-item reveal" style="transition-delay: 0.1s;">
+                    <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&q=80" alt="Barista working">
+                    <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+                <div class="gallery-item reveal" style="transition-delay: 0.2s;">
+                    <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=600&q=80" alt="Coffee and cake">
+                    <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. Contact Section -->
+    <section id="contact" class="section">
+        <div class="container contact-container">
+            <div class="contact-info reveal">
+                <h3>Get In Touch</h3>
+                <p>We'd love to hear from you. Drop us a line or visit us at our flagship location for a truly exceptional coffee experience.</p>
+                
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4 style="margin-bottom: 5px;">Location</h4>
+                        <p style="margin-bottom: 0;">D.No. 9-76/1, Karimnagar-Warangal Highway, Adarsha Nagar<br> Manakondur, Telangana 505469</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <div>
+                        <h4 style="margin-bottom: 5px;">Phone</h4>
+                        <p style="margin-bottom: 0;">+91 9912816787</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4 style="margin-bottom: 5px;">Email</h4>
+                        <p style="margin-bottom: 0;">bandasamatha007@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            
+            <div class="contact-form reveal" style="transition-delay: 0.2s;">
+                <form action="contact.php" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" class="form-control" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <a href="#" class="logo">SP Artisan Coffee</a>
+                    <p>Artisan coffee crafted with passion. Experience the perfect blend of luxury and rich flavors in every cup.</p>
+                </div>
+                
+                <div class="footer-links-col">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#products">Shop Blends</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links-col">
+                    <h4 class="footer-title">Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Shipping Policy</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links-col">
+                    <h4 class="footer-title">Newsletter</h4>
+                    <p style="color: var(--color-text-muted); font-size: 0.95rem; margin-bottom: 1rem;">Subscribe to get special offers and updates.</p>
+                    <form style="display: flex;" onsubmit="event.preventDefault(); alert('Thank you for subscribing to our newsletter!'); this.reset();">
+                        <input type="email" class="form-control" placeholder="Email Address" required style="border-radius: 4px 0 0 4px; border-right: none;">
+                        <button type="submit" class="btn btn-primary" style="padding: 12px 20px; border-radius: 0 4px 4px 0;"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2030 SP Artisan Coffee. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
